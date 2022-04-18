@@ -10,7 +10,7 @@ public class Employee {
         this.salaryPerDay = salaryPerDay;
     }
 
-    private int getSalaryPerMonthy() {
+    public int getSalaryPerMonthy() {
         return daysWorked*salaryPerDay;
     }
 }
