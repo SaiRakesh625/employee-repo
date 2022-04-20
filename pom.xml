@@ -31,8 +31,19 @@
     <repository>
       <id>github</id>
       <name>GitHub SaiRakesh625 Apache Maven Packages</name>
-      <url>https://maven.pkg.github.com/SaiRakesh625/employee-repo</url>
+      <url>https://token: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@maven.pkg.github.com/SaiRakesh625/employee-repo</url>
     </repository>
+     <!-- <repository>
+        <id>central</id>
+        <name>a0xqux7arqqkm-artifactory-primary-0-releases</name>
+        <url>https://rakesernam625.jfrog.io/artifactory/testmaven-libs-release-local</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>a0xqux7arqqkm-artifactory-primary-0-snapshots</name>
+        <url>https://rakesernam625.jfrog.io/artifactory/testmaven-libs-snapshot-local</url>
+    </snapshotRepository> -->
+
   </distributionManagement>
 
   <build>
